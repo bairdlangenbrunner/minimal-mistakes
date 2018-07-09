@@ -3,15 +3,20 @@
    ========================================================================== */
 
 /* Colors */
-$text-color: #002b36 !default;
-$muted-text-color: #073642 !default;
-$primary-color: #fdf6e3 !default;
+$baird-orange: #cb4b16;
+$baird-white-lt: #fdf6e3;
+$baird-black-dk: #073642;
+$baird-black-lt: #586e75;
+
+$text-color: $baird-black-dk !default;
+$muted-text-color: $baird-black-lt !default;
+$primary-color: $baird-white-lt !default;
 $border-color: $muted-text-color !default; /*mix(#fdf6e3, $text-color, 75%) !default;*/
 $footer-background-color: $text-color !default;
-$link-color: #cb4b16 !default;
+$link-color: $baird-orange !default;
 $masthead-link-color: $link-color !default;
 $masthead-link-color-hover: $link-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$navicon-link-color-hover: $link-color !default; /*mix(#fff, $text-color, 80%) !default;*/
 
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
@@ -43,7 +48,7 @@ $base0f: #b18a3d !default;
 }
 
 .page__footer {
-  color: #002b36 !important; // override
+  color: $baird-white-lt !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
