@@ -191,7 +191,8 @@
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      /*color: $masthead-link-color-hover;*/
+      text-decoration: underline;
     }
 
     &.site-title {
