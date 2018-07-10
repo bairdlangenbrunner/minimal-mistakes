@@ -14,6 +14,8 @@ $primary-color: $baird-white-lt !default;
 $border-color: $muted-text-color !default; /*mix(#fdf6e3, $text-color, 75%) !default;*/
 $footer-background-color: $baird-orange !default;
 $link-color: $baird-orange !default;
+$link-color-hover: $link-color !default;
+$link-color-visited: $link-color !default;
 $masthead-link-color: $link-color !default;
 $masthead-link-color-hover: $link-color !default;
 $navicon-link-color-hover: $link-color !default; /*mix(#fff, $text-color, 80%) !default;*/
